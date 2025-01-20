@@ -28,4 +28,4 @@ jobs:
         run: mvn deploy -s $GITHUB_WORKSPACE/settings.xml
         env:
           GH_USERNAME: "${{ vars.ENDUCO_GIT_USER }}"
-          GH_PACKAGE_TOKEN: "${{ secrets.PACKAGE_PUSH_TOKEN }}"
+          GH_PACKAGE_TOKEN: "${{ secrets.ENDUCO_PACKAGES_TOKEN }}"
