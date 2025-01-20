@@ -14,6 +14,13 @@
         <url>https://github.com/openapitools/openapi-generator</url>
     </scm>
 
+    <distributionManagement>
+        <repository>
+            <id>github</id> <!-- This refers to the server ID in settings.xml -->
+            <url>https://maven.pkg.github.com/enduco/onesignal-java-api</url>
+        </repository>
+    </distributionManagement>
+
     <licenses>
         <license>
             <name>Unlicense</name>
