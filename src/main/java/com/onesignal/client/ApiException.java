@@ -13,6 +13,7 @@
 
 package com.onesignal.client;
 
+import java.util.HashMap;
 import java.util.Map;
 import java.util.List;
 
@@ -25,7 +26,7 @@ import javax.ws.rs.core.GenericType;
 @javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-08-01T23:27:12.168Z[Etc/UTC]")
 public class ApiException extends Exception {
     private int code = 0;
-    private Map<String, List<String>> responseHeaders = null;
+    private Map<String, List<String>> responseHeaders = new HashMap<>();
     private String responseBody = null;
  
     /**
